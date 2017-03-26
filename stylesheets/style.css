@@ -24,6 +24,8 @@ h3.dotted {
   width: auto;
   text-align: left;
   border-bottom-style: dotted;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 h4 {
