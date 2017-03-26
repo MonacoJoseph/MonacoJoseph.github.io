@@ -1,21 +1,47 @@
+div {
+ height: 100px;
+ width: 300px;
+ margin: auto;
+ text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+h3.dotted {
+  width: auto;
+  text-align: left;
+  border-bottom-style: dotted;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+a {
+
+}
+
 .construction {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-div {
- height: 100px;
- width: 300px;
- margin: 0 auto;
- text-align: center;
-}
-
-.headerButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style: double;
-  background-color: #baaba3;
-  border-color: #47413e;
 }
