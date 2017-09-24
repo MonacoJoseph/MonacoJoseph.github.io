@@ -8,8 +8,16 @@
   box-sizing: border-box;
 }
 .container {
-  margin-left: 15em;
-  margin-right: 15em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+h3.name, h2.name {
+  text-align: center;
+}
+div.expr {
+  margin-left: 5em;
+  margin-right: 5em;
 }
 #result {
   margin: 1em;
@@ -43,13 +51,4 @@ li a:hover {
 }
 body {
   margin: 0;
-}
-h3.top {
-  text-align: center;
-  font-weight: lighter;
-  font-size: 20pt;
-  animation-name: fadeIn;
-  animation-duration: 3s;
-  border-bottom-style: dotted;
-  border-bottom-color: inherit;
 }
