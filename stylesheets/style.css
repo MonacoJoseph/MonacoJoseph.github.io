@@ -11,12 +11,18 @@
   margin-left: 15em;
   margin-right: 15em;
 }
-ul {
+ul.front {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+ul {
+  list-style-type: none;
+  margin: 2em;
+  padding: 0;
+  overflow: hidden;
 }
 li {
     float: left;
@@ -33,7 +39,7 @@ li a:hover {
     background-color: #111;
 }
 section {
-  /* position is static by default */
+  margin-top: 20px;
 }
 body {
   margin: 0;
