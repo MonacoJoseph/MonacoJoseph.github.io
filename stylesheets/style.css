@@ -3,19 +3,23 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@-ms-viewport{
-  width: device-width;
-}
 .container {
-  margin-left: 20em;
-  margin-right: 20em;
+  margin-left: 15em;
+  margin-right: 15em;
   margin-top: 1em;
 }
 h3.name, h2.name {
   text-align: center;
 }
-div.expr {
-
+h3.expr {
+  text-align: center;
+  font-weight: lighter;
+}
+h4 {
+  font-weight: lighter;
+}
+div.body-begin {
+  border-bottom: solid;
 }
 #result {
   margin: 1em;
