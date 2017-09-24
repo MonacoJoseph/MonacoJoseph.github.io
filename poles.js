@@ -15,6 +15,6 @@ function calculate() {
   var c = height*Math.cos(angleinDegrees) / 6.0;
   var result = document.getElementById('result');
 
-  result.innerHTML = a+b+c;
+  result.innerHTML = (a+b+c).toFixed(2) + " meters";
 
 }

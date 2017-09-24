@@ -11,6 +11,9 @@
   margin-left: 15em;
   margin-right: 15em;
 }
+#result {
+  margin: 1em;
+}
 ul.front {
     list-style-type: none;
     margin: 0;
@@ -20,7 +23,7 @@ ul.front {
 }
 ul {
   list-style-type: none;
-  margin: 2em;
+  margin: 1em;
   padding: 0;
   overflow: hidden;
 }

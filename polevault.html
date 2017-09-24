@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Joseph Monaco</title>
+  <title>Pole Vault</title>
   <meta charset="utf-8"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
   <link rel="stylesheet" href="stylesheets/style.css"></link>
   <script type="text/javascript" src="poles.js"></script>
 </head>
 <body>
-  <div class="container">
-    <section>
-      <ul><input type="number" id="flex" name="flex"> Input your flex constant</input></ul>
-      <ul><input type="number" id="mass" name="masskg"> Mass (kg)</input></ul>
-      <ul><input type="number" id="poleL" name="polelength"> Pole Length</input></ul>
-      <ul><input type="number" id="height" name="heightm"> Height (m)</input></ul>
-      <ul><input type="number" id="angle" name="angledeg"> Jump angle (degrees). Use 45 if unsure</input></ul>
+  <center>
+      Input your flex constant
+      <ul><input type="number" id="flex" name="flex"></input></ul>
+      Mass (kg)
+      <ul><input type="number" id="mass" name="masskg"></input></ul>
+      Pole Length (m)
+      <ul><input type="number" id="poleL" name="polelength"></input></ul>
+      Your height (m)
+      <ul><input type="number" id="height" name="heightm"></input></ul>
+      Jump angle (degrees). Use 45 if unsure
+      <ul><input type="number" id="angle" name="angledeg"></input></ul>
       <button onclick="calculate()">Calculate Jump Height</button>
       <div id="result"></div>
-    </section>
+    </center>
   </div>
 </body>
 </html>
