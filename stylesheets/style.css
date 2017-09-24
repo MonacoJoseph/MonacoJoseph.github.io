@@ -8,16 +8,15 @@
   box-sizing: border-box;
 }
 .container {
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 20em;
+  margin-right: 20em;
   margin-top: 1em;
 }
 h3.name, h2.name {
   text-align: center;
 }
 div.expr {
-  margin-left: 5em;
-  margin-right: 5em;
+
 }
 #result {
   margin: 1em;
