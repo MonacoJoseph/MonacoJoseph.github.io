@@ -27,6 +27,9 @@ nav{
     float: left;
     width: 20%;
 }
+.otherInfo {
+    margin-left: 20%;
+}
 .headers {
     font-size: 20px;
     font-weight: bold;
