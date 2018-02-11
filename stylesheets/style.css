@@ -1,56 +1,41 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+*{
+    font-family: sans-serif;
+    font-size: 16px;
 }
-.container {
-  margin-left: 15em;
-  margin-right: 15em;
-  margin-top: 1em;
+
+nav{
+    width: 100%;
 }
-h3.name, h2.name {
-  text-align: center;
-}
-h3.head {
-  text-align: center;
-  font-weight: lighter;
-}
-h4 {
-  font-weight: lighter;
-}
-div.body-begin {
-  border-bottom: solid;
-}
-#result {
-  margin: 1em;
-}
-ul.front {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-ul {
-  list-style-type: none;
-  margin: 1em;
-  padding: 0;
-  overflow: hidden;
-}
-li {
+
+.name{
+    font-weight: bold;
+    font-size: 24px;
     float: left;
+    padding: 0.5em;
+    margin-left: 7%
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+.mainCol{
+    float: left;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-left: 7%;
+    width: 86%;
 }
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+
+.courses {
+    float: left;
+    width: 20%;
 }
-body {
-  margin: 0;
+.headers {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    font-size: 14px;
+}
+
+.mainText{
+    padding: 1em;
 }
