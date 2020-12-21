@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A short story by Joe Monaco</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+<!-- Top-banner is currently unused -->
+<div class='top-banner'></div>
+
+<div class='main'>
+    <!-- The start of the story -->
+    <div id='first'>
+    <p>Hello! I heard you have been reading a lot recently... 
+    I know the perfect place for you. It has many books!</p>
+    <div class='fade-in-class'>
+        <img title='books' src='assests/books.jpg'>
+
+        <p>Do you want to read a new cool book?</p>
+        <button onclick=changeDisp(this) parent='first' next='second'>Yes</button>
+    </div>
+    </div>
+
+    <!-- The second chapter -->
+    <div id='second'>
+    <p>Don't worry. I'll drive.</p>
+
+    <div class='fade-in-class'>
+        <img title='drive' src='assests/nyc.jpg'>
+        <p>What do you want to listen to?</p>
+        <button onclick=changeDisp(this) parent='second' next='why'>Club house bangers</button>
+        <button onclick=changeDisp(this) parent='second' next='why'>Shawn Mendes</button>
+        <button onclick=changeDisp(this) parent='second' next='joe'>i_o</button>
+        <button onclick=changeDisp(this) parent='second' next='third'>Anthems like The Killers and such</button>
+    </div>
+    </div>
+
+    <!-- Why would you pick Shawn -->
+    <div id='why'>
+        <p>Please, go back and try again...</p>
+        <button onclick=changeDisp(this) parent='why' next='second'>Go back, Now!</button>
+    </div>
+
+    <div id='joe'>
+        <p>Alright, this is something I would like but let's find something we both do.
+        I'm trying to sing along to these...    
+        </p>
+        <button onclick=changeDisp(this) parent='joe' next='second'>Go back</button>
+    </div>
+
+    <div id='third'>
+        <p>The Killers - Mr. Brightside plays. We sing along. It is a great time</p>
+
+        <div class='fade-in-class'>
+        <img title='music' src='assests/the-killers.jpg'>
+        <div><span>This isn't the killers (I think?) but I bet you didn't know that</span></div>
+        <div>
+            <p>We are getting closer. Are you wondering where we are going now?</p>
+            <button onclick=changeDisp(this) parent='third' next='four'>Continue</button>
+        </div>
+        </div>
+    </div>
+
+    <div id='four'>
+        <p>Oh, here we are! Wanna go in?</p>
+
+        <div class='fade-in-class'>
+            <img title='bookstore' src='assests/bookstore.jpg'>
+            <p><button onclick=changeDisp(this) parent='four' next='no'>No...</button>
+            <button onclick=changeDisp(this) parent='four' next='five'>Yeah, I love bookstores.</button></p>
+        </div>
+    </div>
+
+    <div id='no'>
+        <p>
+            Oh, why not? I've always heard this is one of the best bookstores in the world.
+            I'd love to go in. I think they have the original manuscripts of Harry Potter inside.
+        </p>
+        <div class='fade-in-class'>
+            Are you sure you don't want to go in?
+            <p><button onclick=changeDisp(this) parent='no' next='no2'>Yeah, I'm sure</button>
+            <button onclick=changeDisp(this) parent='no' next='five'>You know what.. Let's go in</button></p>
+        </div>
+    </div>
+
+    <div id='five'>
+        <p>
+            You enter the bookstore. There are many insanely good books here and most are original. You are
+            in shock. You are so glad you went in, but in the back of your head, you think... maybe
+            you shouldn't have. You are told the original manuscripts of Harry Potter are downstairs.
+        </p>
+        
+        <div class='fade-in-class'>
+            <p>
+                Do you go down the stairs?
+            </p>
+            <img title='stairs' src='assests/stairs.jpg'>
+            <div>
+                <button onclick=changeDisp(this) parent='five' next='six'>Yeah, duh</button>
+                <button onclick=changeDisp(this) parent='five' next='no3'>Nope. Absolutely not. Yeah, we're not doin that</button>
+            </div>
+        </div>
+    </div>
+
+    <div id='no2'>
+        <p>
+            There is a certain mysteriousness to this bookstore but you cannot describe it. You really do not want to enter.
+        </p>
+        <p>
+            What's wrong with just entering? I'm here too and I'm going to go in...
+        </p>
+        <button onclick=changeDisp(this) parent='no2' next='five'>You're right. Let's go</button>
+    </div>
+
+    <div id='no3'>
+        <p>
+            Seriously you should go down...
+        </p>
+        <button onclick=yes(this) parent='no3' next='six'>No</button>
+        <button onclick=yes(this) parent='no3' next='six'>No</button>
+    </div>
+
+    <div id='six'>
+        <p>
+            Haha now you can quarantine here.. with all the books. I will bring food of course.
+        </p>
+        <div class='fade-in-class-long'>
+            <img title='end-box' src='assests/you_box.jpg'>
+        </div>
+        <p>The end.</p>
+        <div>
+            <span>This was lowkey fun to make.</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
